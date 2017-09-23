@@ -32,12 +32,18 @@ Cloth,Blanket
 Clothing,Belt
 Clothing,Jewelry
 Clothing,Purses
+Clothing,Shoes
 Consumable,Health products
 Consumable,Food
 Consumable,Beauty products
+Consumable,Medical Supplies
+Consumable,Pet Food
+Consumable,Cleaning Supplies
+Consumable,Gift Cards
+Consumable,Office supplies
 Decorative,Framed art
 Decorative,Picture frames
-Decorative,Holiday décor
+Decorative,Holiday d+//0Aw//9AKk-cor
 Electronics,Stereo
 Electronics,CD
 Electronics,VCR
@@ -51,6 +57,12 @@ Electronics,Satellite Receiver
 Electronics,Computer
 Electronics,Lamp
 Electronics,TV (Television)
+Electronics,Computer
+Electronics,Computer cables
+Electronics,Computer monitor
+Electronics,Printer
+Electronics,Scanner
+Electronics,Shredder
 Exercise Equipment,Treadmill
 Exercise Equipment,Weight Bench
 Exercise Equipment,Hand Weights
@@ -66,8 +78,10 @@ Furniture,Dresser
 Furniture,Sofa
 Furniture,Couch
 Furniture,Cabinet
-Hobby,Children’s toys
+Hobby,Children+IBk-s toys
 Hobby,Books
+Hobby,Craft Supplies
+Hobby,Pet Supplies
 Kitchen,Pots (cooking)
 Kitchen,Pans
 Kitchen,Dishes
@@ -81,10 +95,3 @@ Outdoor,Soil
 Outdoor,Bricks
 Outdoor,Planter
 Outdoor,Mulch
-Electronics,Computer
-Electronics,Computer cables
-Electronics,Computer monitor
-Electronics,Printer
-Electronics,Scanner
-Electronics,Shredder
-Clothing,Shoes
