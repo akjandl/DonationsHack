@@ -1,21 +1,23 @@
-Item,Doesn't take,To?,Drop off type,Location,Phone,Times,,Web page,Restrictions,Tax deductible?
-+ACI-Household items.,,,,,,,,,,
-April+AC0-September: Summer clothes,,,,,,,,,,
-October+AC0Akw-March: Fall / Winter clothes+ACI-,,empty tomb,(church?),+ACI-301 N. Fourth St., Champaign, IL+ACI-,,+ACI-Monday+AC0-Saturday.
-Clothing is seasonally restricted.+ACI-,+ACI-9 am+//0A4v/9AID//QCT-12:30 pm, 2:15+//0A4v/9AID//QCT-5 pm.+ACI-,http://www.emptytomb.org/donateguide.html,+ACI-Up to 5 bags of men's and women's in+AC0-season clothing.
+Item,Item,To?,Drop off type,Location,Phone,Times,,Web page,Restrictions,Tax deductible?
+"Household items.
+April-September: Summer clothes
+October-March: Fall / Winter clothes","Household items.,,,,,,,,,,
+April-September: Summer clothes,,,,,,,,,,
+October-March: Fall / Winter clothes",empty tomb,(church?),"301 N. Fourth St., Champaign, IL",,"Monday-Saturday.
+Clothing is seasonally restricted.","9 am-12:30 pm, 2:15-5 pm.",http://www.emptytomb.org/donateguide.html,"Up to 5 bags of men's and women's in-season clothing.
 Any amount of of children's and youth clothing.
-Household goods such as pots, pans, dishes, bedding, linens, up to room+AC0-size rugs and decorative items.
-All items must be in good condition.+ACI-,
-+ACI-Appliances: Washer, Dryer, Cook Top, Freezer, Microwave, Refrigerator, Range, Air Conditioner
+Household goods such as pots, pans, dishes, bedding, linens, up to room-size rugs and decorative items.
+All items must be in good condition.",
+"Appliances: Washer, Dryer, Cook Top, Freezer, Microwave, Refrigerator, Range, Air Conditioner
 Cabinet (All doors and drawers present. No water damage.)
-Carpet (minimum 6+IBk- x 6+IBk-, clean, free of stains, free of visible wear.)
-Countertop (At least 6 feet long. No cut+AC0-outs. No angle joints.)
+Carpet (minimum 6’ x 6’, clean, free of stains, free of visible wear.)
+Countertop (At least 6 feet long. No cut-outs. No angle joints.)
 Door (Solid or Paneled)
 Electronics: Stereo, CD, VCR, Speaker, DVD, DVD player, CD Player, LP, DVR, Satellite Receiver, Computer, Windows 98 or newer, Macintosh OS 9 or newer
-Exercise equipment (in good working condition. Before bringing, contact a manager before bringing in exercise equipment at 217+AC0-819+AC0-5118 or restore+AEA-cuhabitat.org): Treadmill,
+Exercise equipment (in good working condition. Before bringing, contact a manager before bringing in exercise equipment at 217-819-5118 or restore@cuhabitat.org): Treadmill,
 Weight Bench, Hand Weights, Stationary Bike, Stair Stepper, Bench Weights
-Furniture +AFs-upholstered+AF0- (Visibly clean and free of stains, tears, and holes)
-Furniture +AFs-Wood+AF0- (Good condition, all parts present.)
+Furniture [upholstered] (Visibly clean and free of stains, tears, and holes)
+Furniture [Wood] (Good condition, all parts present.)
 Garden supplies: Garden tools, Plants, Paver, Pots, Soil, Bricks, Planters, Mulch
 Hardware and Tools (Clean, organized, and fully functioning.)
 Kitchen items
@@ -33,12 +35,36 @@ Sheet Goods (Minimum 4' x 4'): Drywall, Plywood, MDF, Paneling
 Kitchen sink (Stainless Steel only)
 Bathroom sink (Faucets must be removed. Vanity cabinet attached.)
 Tile and Flooring
-Windows (if not single pane)+ACI-,+ACI-Used faucets
-Doors with lead paint or water damage
-Bathroom sink with stains or cracks
-Single pane windows+ACI-,Habitat for Humanity of Champaign County,+ACI-Loading dock (with volunteers)
-Pick up +ACI-,To arrange a pick up of your donations call (217) 359+AC0-0507.  ,,Tuesday +//0A4v/9AID//QCT- Friday 10am+AC0-6pm and Saturday 10am+AC0-4pm. ,Tuesday+AC0-Friday 10am+AC0-6pm and Saturday 10am+AC0-4pm. ,http://cuhabitat.org/re+AC0-store/donate+AC0-materials/,,
-+ACI-Clothing
+Windows (if not single pane)","Appliances: Washer, Dryer, Cook Top, Freezer, Microwave, Refrigerator, Range, Air Conditioner
+Cabinet (All doors and drawers present. No water damage.)
+Carpet (minimum 6’ x 6’, clean, free of stains, free of visible wear.)
+Countertop (At least 6 feet long. No cut-outs. No angle joints.)
+Door (Solid or Paneled)
+Electronics: Stereo, CD, VCR, Speaker, DVD, DVD player, CD Player, LP, DVR, Satellite Receiver, Computer, Windows 98 or newer, Macintosh OS 9 or newer
+Exercise equipment (in good working condition. Before bringing, contact a manager before bringing in exercise equipment at 217-819-5118 or restore@cuhabitat.org): Treadmill,
+Weight Bench, Hand Weights, Stationary Bike, Stair Stepper, Bench Weights
+Furniture [upholstered] (Visibly clean and free of stains, tears, and holes)
+Furniture [Wood] (Good condition, all parts present.)
+Garden supplies: Garden tools, Plants, Paver, Pots, Soil, Bricks, Planters, Mulch
+Hardware and Tools (Clean, organized, and fully functioning.)
+Kitchen items
+Framed art
+Holiday decor
+Linens
+Picture frame
+Lamp
+Home decor
+Small appliance (must be functioning)
+Light Fixture or Ceiling Fan (Clean and fully functional, all parts present.)
+Lumber or trim (Must be at least 4 feet long.)
+Plumbing or electrical equipment (Clean, complete, and up to code.)
+Sheet Goods (Minimum 4' x 4'): Drywall, Plywood, MDF, Paneling
+Kitchen sink (Stainless Steel only)
+Bathroom sink (Faucets must be removed. Vanity cabinet attached.)
+Tile and Flooring
+Windows (if not single pane)",Habitat for Humanity of Champaign County,"Loading dock (with volunteers)
+Pick up ",To arrange a pick up of your donations call (217) 359-0507.  ,,Tuesday �â�� Friday 10am-6pm and Saturday 10am-4pm. ,Tuesday-Friday 10am-6pm and Saturday 10am-4pm. ,http://cuhabitat.org/re-store/donate-materials/,,
+"Clothing
 Accessories (belts, jewelry, purses, etc.)
 Furniture (subject to approval)
 Appliances
@@ -53,29 +79,49 @@ Kitchenware
 Flat screen TV (must be working)
 Computer
 Computer accessories (flat monitor only) 
-Antiques+ACI-,+ACI-CRT monitors
-Mattress
-Box spring
-Car seat
-Broken electronics
-Piano+ACI-,Salt +ACY- Light,+ACI-Drive through (with volunteer help)
-Pick up+ACI-,+ACI-1512 W. Anthony Drive
+Antiques","Clothing
+Accessories (belts, jewelry, purses, etc.)
+Furniture (subject to approval)
+Appliances
+Household items
+Health, bath, and beauty products
+Children's toys
+Linens, sheets, blankets, and towels
+Books
+DVD
+CD
+Kitchenware
+Flat screen TV (must be working)
+Computer
+Computer accessories (flat monitor only) 
+Antiques",Salt & Light,"Drive through (with volunteer help)
+Pick up","1512 W. Anthony Drive
 Champaign
-+ACI-, (217) 355+AC0-5654,Monday+AC0-Saturday,9am+AC0-8pm,+ACI-http://www.saltandlightministry.org/thrift
-http://www.saltandlightministry.org/pickup+ACI-, ,
-+ACI-Food
+", (217) 355-5654,Monday-Saturday,9am-8pm,"http://www.saltandlightministry.org/thrift
+http://www.saltandlightministry.org/pickup", ,
+"Food
 Clothing
 Small household items
 Furniture (case by case)
-Larger household items (case by case)+ACI-,,Restoration Urban Ministries,?,+ACI-1213 Parkland Ct, Champaign, IL 61821+ACI-,(217) 355+AC0-2662,+ACI-Monday, Tuesday, Thursday, and Friday 10AM+AC0-3PM+ACI-,,http://restorationurbanministries.net/programs+AC0-services/community+AC0-programs/how+AC0-to+AC0-donate+AC0-items/,,
-+ACI-Clothing (clean, gently used)
+Larger household items (case by case)","Food
+Clothing
+Small household items
+Furniture (case by case)
+Larger household items (case by case)",Restoration Urban Ministries,?,"1213 Parkland Ct, Champaign, IL 61821",(217) 355-2662,"Monday, Tuesday, Thursday, and Friday 10AM-3PM",,http://restorationurbanministries.net/programs-services/community-programs/how-to-donate-items/,,
+"Clothing (clean, gently used)
 Accessories (belts, purses, etc)
 Shoes
 Furniture
 Housewares
 Books
-Antiques+ACI-,,Courage Connection,Carry in to mall,+ACI-Lincoln Square, Urbana+ACI-,(217) 384+AC0-2158,Tuesdays and Thursdays from 10am to 4pm and on Saturdays from 9am to 1pm.,,https://courageconnection.org/about+AC0-our+AC0-store/, ,Yes
-Architectural +ACY- Building Salvage (call for accepted items),,Preservation and Conservation Association (PACA),,+ACI-44 E. Washington St., Champaign+ACI-,(217) 359+AC0-7222,,,http://pacacc.org/, ,
+Antiques","Clothing (clean, gently used)
+Accessories (belts, purses, etc)
+Shoes
+Furniture
+Housewares
+Books
+Antiques",Courage Connection,Carry in to mall,"Lincoln Square, Urbana",(217) 384-2158,Tuesdays and Thursdays from 10am to 4pm and on Saturdays from 9am to 1pm.,,https://courageconnection.org/about-our-store/, ,Yes
+Architectural & Building Salvage (call for accepted items),Architectural & Building Salvage (call for accepted items),Preservation and Conservation Association (PACA),,"44 E. Washington St., Champaign",(217) 359-7222,,,http://pacacc.org/, ,
 ,,,,,,,,, ,
 ,,,,,,,,, ,
 ,,,,,,,,, ,
