@@ -1,3 +1,9 @@
 
 *.iml
 *.xml
+*.keystream
+.idea/dataSources/630583dc-7a8e-45e4-b64e-de585193be46/_metadata_/metadata
+*.len
+.idea/dataSources/630583dc-7a8e-45e4-b64e-de585193be46/_metadata_/metadata_i
+*.pyc
+.DS_Store
