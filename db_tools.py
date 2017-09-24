@@ -1,5 +1,4 @@
 import sqlite3
-import json
 
 
 def add_category_to_db(cursor, category_name):
@@ -86,9 +85,20 @@ def match_loc_data(category):
     return cur.fetchall()
 
 
+def get_categories():
+    con = sqlite3.connect('donations_hack.db')
+    cur = con.cursor()
+    sql = '''
+        SELECT CategoryName
+        FROM Categories
+        ORDER BY CategoryName
+    '''
+    cur.execute(sql)
+    return [i[0] for i in cur.fetchall()]
+
+
 def main():
-    data = match_loc_data('Pet')
-    print(json.dumps(data, indent=4))
+    pass
 
 
 if __name__ == '__main__':
