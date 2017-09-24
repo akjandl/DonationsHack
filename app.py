@@ -35,7 +35,7 @@ def match_loc_data(category):
 def index():
     # TODO: Mock: Replace call later
     get_db()
-    categories = populate_categories
+    categories = populate_categories()
     return render_template('index.html', categories=categories)
 
 @app.route('/<category>')
