@@ -36,7 +36,10 @@ def index():
     # TODO: Mock: Replace call later
     get_db()
     categories = populate_categories()
-    return render_template('index.html', categories=categories)
+    # TODO: Replace with call to DB
+    locations = app.config['LOCATIONS']
+    return render_template('index.html', categories=categories,
+                        locations=locations)
 
 @app.route('/<category>')
 def retrieve_page(category):
@@ -46,8 +49,6 @@ def retrieve_page(category):
         # TODO: What to render in this case?
         return render_template('index.html', categories=categories)
     locations = match_loc_data(category)
-    # TODO: check database for locations corresponding to categories
-    #locations = [('thing1', 'thing2', 'thing3'), ('thing1', 'thing2', 'thing3')]
     return render_template('category_template.html', category=category,
                            locations=locations)
 
