@@ -18,6 +18,15 @@ Behavior:
 - [x] create first-pass flask app controller logic
 
 ## Extensions
+- [ ] navbar with category dropdown, locations dropdown, and info/about
 - [ ] store requirements page for each donation center and regularly ping to compare to cached copy to detect changes
 - [ ] autocomplete suggestions (as user types in text box) drawn from eligible items
-- [ ] NLP to identify similar items and synonyms in order to operationalize a search bar, item-level approach
+- [ ] implement item/category seacrh box
+    - [ ] NLP to identify similar items and synonyms in order to operationalize a search bar, item-level approach
+        - [ ] incorporate user feedback into NLP item-category mapping model
+    - [ ] use search data to identify highly avialable goods and common pain points
+- [ ] allow donation locations to submit corrections
+- [ ] allow donation locations to submit highly needed items
+- [ ] add content around where to dispose of things (e.g., paint)
+- [ ] add alternative ways of getting rid of stuff (e.g., CL, ebay, freecycle, etc.)
+- [ ] geo-filtered results
