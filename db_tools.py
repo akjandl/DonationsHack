@@ -97,6 +97,19 @@ def get_categories():
     return [i[0] for i in cur.fetchall()]
 
 
+def get_location_list():
+    con = sqlite3.connect('donations_hack.db')
+    con.row_factory = dict_factory
+    cur = con.cursor()
+    sql = '''
+        SELECT Name, Phone, Hours, Website, Address
+        FROM Locations
+        ORDER BY Name
+    '''
+    cur.execute(sql)
+    return cur.fetchall()
+
+
 def main():
     pass
 
