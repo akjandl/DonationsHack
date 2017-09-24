@@ -24,24 +24,58 @@
       <div class="overlay">
         <div class="container">
           <h1 class="display-1 text-white">DonationsHack</h1>
-          <h2 class="display-4 text-white">donate your stuff, help someone</h2>
+          <h2 class="display-4 text-white">What do you want to donate today?</h2>
         </div>
       </div>
     </header>
 
-    {% for category in categories %}
-    <section>
+    </br>
+
+    <section id="categories">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-1 text-center">
+          <div class="col-md-12">
+            <h2 class="display-4 text-info">Item Category</h2>
+          </div>
+        </div>
+      </div>
+    {% for category in categories %}
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-2 text-left">
             <div class="p-2">
-              <a class="display-4 text-muted" href="/{{ category }}">{{ category }}</a>
+              <a class="display-5 text-muted" href="/{{ category }}">{{ category }}</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
     {% endfor %}
+    </section>
+
+    </br>
+
+    <section id="locations">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <h2 class="display-4 text-info" data-toggle="collapse" data-target="#locationInfo">Included locations</h2>
+          </div>
+        </div>
+      </div>
+      <div id="locationInfo" class="collapse">
+        {% for location in locations %}
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-1 text-center">
+                <div class="p-2">
+                  <a class="display-6 text-muted" href="/{{ location }}">{{ category }}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
 
     </br>
 
