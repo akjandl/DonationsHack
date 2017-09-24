@@ -13,11 +13,11 @@ Behavior:
 
 ## MVP To Do
 - [x] retrieve data around items accepted by location and location metadata (e.g., hours)
-- [ ] create sqlite database
-- [ ] create first-pass webpage
-- [ ] create first-pass flask app controller logic
+- [x] create sqlite database
+- [x] create first-pass webpage
+- [x] create first-pass flask app controller logic
 
 ## Extensions
 - [ ] store requirements page for each donation center and regularly ping to compare to cached copy to detect changes
 - [ ] autocomplete suggestions (as user types in text box) drawn from eligible items
-- [ ] NLP to identify similar items so synonyms
+- [ ] NLP to identify similar items and synonyms in order to operationalize a search bar, item-level approach
