@@ -1,4 +1,5 @@
 import sqlite3
+import json
 
 
 def add_category_to_db(cursor, category_name):
@@ -59,3 +60,36 @@ def add_match_rec_to_db(cursor, cat_id, loc_id):
         (?, ?, ?)
     '''
     cursor.execute(sql, (None, cat_id, loc_id))
+
+
+def dict_factory(cursor, row):
+    d = {}
+    for idx, col in enumerate(cursor.description):
+        d[col[0]] = row[idx]
+    return d
+
+
+def match_loc_data(category):
+    con = sqlite3.connect('donations_hack.db')
+    con.row_factory = dict_factory
+    cur = con.cursor()
+    sql = '''
+        SELECT Name, Phone, Hours, Website, Address
+        FROM Locations JOIN Matches ON Locations.ID = Matches.Location_ID
+        WHERE Matches.Category_ID= (
+          SELECT ID 
+          FROM Categories
+          WHERE UPPER(CategoryName)=?
+        )
+    '''
+    cur.execute(sql, (category.upper(),))
+    return cur.fetchall()
+
+
+def main():
+    data = match_loc_data('Pet')
+    print(json.dumps(data, indent=4))
+
+
+if __name__ == '__main__':
+    main()
