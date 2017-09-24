@@ -1,9 +1,9 @@
 import os
 import sqlite3
+# TODO: import statements from Andy's API
 from flask import Flask, render_template, g
 
 app = Flask(__name__)
-categories = set()
 
 # TODO: Dummy data; get rid of this once merged
 app.config.update(dict(
@@ -24,12 +24,8 @@ def get_db():
 
 # TODO: Mock: Replace call with DB connection
 def populate_categories():
-    global categories
-    # Get categories only if they haven't been fetched yet
-    if not categories:
-        #categories = g.sqlite_db.get_categories()
-        categories = app.config['CATEGORIES'] 
-        return categories
+    # return g.sqlite_db.get_categories()
+    return app.config['CATEGORIES'] 
 
 # TODO: Mock: Replace with call to DB
 def match_loc_data(category):
@@ -39,13 +35,12 @@ def match_loc_data(category):
 def index():
     # TODO: Mock: Replace call later
     get_db()
-    global categories
-    categories = populate_categories()
+    categories = populate_categories
     return render_template('index.html', categories=categories)
 
 @app.route('/<category>')
 def retrieve_page(category):
-    populate_categories()
+    categories = populate_categories()
     if category not in categories:
         # Not a known category
         # TODO: What to render in this case?
