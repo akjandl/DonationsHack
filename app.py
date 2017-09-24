@@ -1,5 +1,6 @@
 import os
 import sqlite3
+import db_tools
 # TODO: import statements from Andy's API
 from flask import Flask, render_template, g
 
@@ -27,9 +28,8 @@ def populate_categories():
     # return g.sqlite_db.get_categories()
     return app.config['CATEGORIES'] 
 
-# TODO: Mock: Replace with call to DB
 def match_loc_data(category):
-    return app.config['LOCATIONS']
+    return db_tools.match_loc_data(category)
 
 @app.route('/')
 def index():
