@@ -23,7 +23,7 @@
     <header class="masthead">
       <div class="overlay">
         <div class="container">
-          <h1 class="display-1 text-white">DonationsHack</h1>
+          <h1 class="display-2 text-white">DonationsHack</h1>
           <h2 class="display-4 text-white">What do you want to donate today?</h2>
         </div>
       </div>
@@ -33,32 +33,34 @@
 
     <section id="categories">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-12">
-            <h2 class="display-4 text-info">Item Category</h2>
-          </div>
-        </div>
-      </div>
-    {% for category in categories %}
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-2 text-left">
-            <div class="p-2">
-              <a class="display-5 text-muted" href="/{{ category }}">{{ category }}</a>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h2 class="display-4 text-info">Item Category</h2>
             </div>
           </div>
         </div>
+        <div class="container container_flex">
+        {% for category in categories %}
+          <div class="row align-items-center">
+            <div class="col-md-2 text-left">
+              <div class="p-2">
+                <a class="display-5 text-muted" href="/{{ category }}">{{ category }}</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
       </div>
-    {% endfor %}
     </section>
 
     </br>
 
     <section id="locations">
-      <div class="container">
+      <div class="container ">
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h2 class="display-4 text-info" data-toggle="collapse" data-target="#locationInfo">Included locations</h2>
+            <a class="display-4 text-info" data-toggle="collapse" href data-target="#locationInfo"><u>Included locations</u></a>
           </div>
         </div>
       </div>
@@ -88,7 +90,7 @@
               </div>
               <div class="col-md-3 text-center">
                 <div class="p-2">
-                  <a class="display-6 text-muted" href="{{ location.Website }}">website</a>
+                  <a class="display-6" href="{{ location.Website }}">website</a>
                 </div>
               </div>
             </div>

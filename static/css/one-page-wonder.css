@@ -23,3 +23,19 @@ header.masthead > .overlay {
         padding: 10rem 0;
     }
 }
+
+.container_flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content:center; */
+
+    /* vh refers to viewport height. Very useful! */
+    height: 50vh;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+}
